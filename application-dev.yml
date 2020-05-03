@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: cloud-config-center
+  cloud:
+    config:
+      server:
+        git:
+          uri: git@github.com:yanjingyu007/SpringcloudConfig/respo.git #github上仓库的名字
+          username: yanjingyu007 
+          password: zzzxxxsss000
+          search-paths:
+            - SpringcloudConfig
+      label: master
